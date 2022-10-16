@@ -1,0 +1,41 @@
+GET http://localhost:5000/users
+
+
+###
+GET http://localhost:5000/users/1
+
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+
+{
+    "image": "",
+    "name": "oilG",
+    "title": "saa",
+    "detail": "sa",
+    "createdAt": "",
+    "url": ""
+
+}
+
+
+
+###
+PATCH http://localhost:5000/users/1
+Content-Type: application/json
+
+
+{
+    "name":"ABle",
+    "title":"Pengen Buah",
+    "detail":"buah apel yang kaya mangga",
+    "createdAt":"Sat, 15 Oct 2022 15:56:50 GMT"
+
+}
+
+
+
+###
+DELETE http://localhost:5000/users/2
