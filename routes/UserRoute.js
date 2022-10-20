@@ -12,5 +12,4 @@ router.delete('/users/:id',deleteUser)
 
 
 
-
 export default router
